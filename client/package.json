@@ -31,7 +31,7 @@
     "react-tag-autocomplete": "^5.13.1",
     "redux": "^4.0.5",
     "redux-undo": "^1.0.1",
-    "jest": "^26.0.1",
+    "jest": "^26.0.1"
   },
   "devDependencies": {
     "@types/fabric": "^3.6.3",
