@@ -4,8 +4,12 @@ node_js:
   - 12.16.3
 cache: npm
 
+before_install: cd client
 install:
   - npm install
+
+before_script: cd client
+
 script:
   local_dir: client
   - sonar-scanner
