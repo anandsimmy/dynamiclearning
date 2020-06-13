@@ -8,5 +8,11 @@ install:
   - npm install
 script:
   local_dir: client
-  - npm run all-unit-tests
-  - npm run build
+  - sonar-scanner
+  # - npm run all-unit-tests
+  # - npm run build
+addons:
+  sonarcloud:
+    organization: "dynamic-learning"
+    token:
+      secure: "**************************" 
