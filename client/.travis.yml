@@ -13,8 +13,8 @@ before_script: cd client
 script:
   local_dir: client
   - sonar-scanner
-  # - npm run all-unit-tests
-  # - npm run build
+  - npm run all-unit-tests
+  - npm run build
 addons:
   sonarcloud:
     organization: "dynamic-learning"
